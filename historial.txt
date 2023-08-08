@@ -1,192 +1,51 @@
-    1  sudo pacman -S yay
-    2  sudo pacman -S yay
-    3  clear
-    4  sudo pacman -S yay
-    5  clear
-    6  sudo yay -S --needed base-devel
-    7  clear
-    8  yay -S google-chrome
-    9  yay -S google-chrome
-   10  lear
-   11  clear
-   12  yay -Syu
-   13  clear
-   14  yay -S google-chrome
-   15  CLEAR
-   16  clear
-   17  sudo pacman -S apache
-   18  clear
-   19  sudo nano /srv/http/index.html
-   20  sudo nano /srv/http/index.html
-   21  clear
-   22  sudo systemctl start apache
-   23  sudo pacman -S apache
-   24  sudo systemctl start apache
-   25  clear
-   26  sudo systemctl start httpd.service
-   27  sudo systemctl status httpd.service
-   28  nano /srv/http/index.html
-   29  ip a
-   30  sudo nano /srv/http/index.html
-   31  nano /srv/http/index.html
-   32  clear
-   33  sudo systemctl start httpd.service
-   34  sudo systemctl status httpd.service
-   35  clear
-   36  uname -a
-   37  Ejecute el comando y navegue en la carpeta que se creo para ver el contenido: 
-   38  git clone https://github.com/mortasoft/linux-scripts 
-   39  ls
-   40  cd linux-scripts/
-   41  clear
-   42  tree
-   43  sudo pacman -S tree
-   44  clear
-   45  tree
-   46  cleaer
-   47  clear
-   48  sudo useradd -m Mortasoft -G wheel -p 123
-   49  sudo useradd -m Centauri17 -G wheel -p 123
-   50  sudo useradd -m Pacman22 -G wheel -p 123
-   51  clear
-   52  ls
-   53  cd /
-   54  ls
-   55  cd home
-   56  ls
-   57  cd Mortasoft/
-   58  sudo cd Mortasoft/
-   59  sudo i-
-   60  sudo -i
-   61  clear
-   62  ls
-   63  cd Mortasoft/
-   64  sudo chown -R jvargasc852:jvargasc852 /home/jvargasc852
-   65  cd Mortasoft/
-   66  sudo cd Mortasoft/
-   67  clear
-   68  chmod -R u+rwx /home/jvargasc852
-   69  chmod -R g+rX,o-rwx /home/jvargasc852
-   70  cd Mortasoft/
-   71  ls -ld /home
-   72  sudo chown -R jvargasc852:jvargasc852 /home/jvargasc852/Mortasoft
-   73  ls -ld /home/jvargasc852/Mortasoft
-   74  sudo cd /home/mortasoft/Mortasoft
-   75  sudo -i -u mortasoft
-   76  cd /home/mortasoft/Mortasoft
-   77  ls
-   78  cd /home/jvargasc852/Mortasoft
-   79  clear
-   80  cd jvargasc852/
-   81  ls
-   82  mkdir diruno
-   83  ls
-   84  mkdir dirdos
-   85  mkdir 003
-   86  mkdir 004
-   87  cd diruno/
-   88  mkdir archivo0
-   89  cd ..
-   90  ls
-   91  cd dir003/
-   92  mv 003 dir003
-   93  mv 004 dir004
-   94  ls
-   95  clear
-   96  ls
-   97  cd dir003/
-   98  cd ..
-   99  clear
-  100  cd diruno/
-  101  ls
-  102  rm archivo0/
-  103  rmdir archivo0/
-  104  ls
-  105  clear
-  106  touch archivo0
-  107  ls
-  108  cd..
-  109  cd ..
-  110  clear
-  111  ls
-  112  cd dir003/
-  113  ls /bin > archivo1
-  114  cat archivo1 
-  115  clear
-  116  ls
-  117  mkdir dirtres
-  118  mkdir dircuatro
-  119  cd dircuatro/
-  120  $ ls -la /etc/a* > $HOME/dir003/dircuatro/archivo2
-  121  ls -la /etc/a* > $HOME/dir003/dircuatro/archivo2
-  122  ls -l $HOME 1> $HOME/dir003/dircuatro/archivo3
-  123  cp /etc/profile $HOME/dir003/dircuatro/
-  124  ls
-  125  su Centauri17
-  126  su Centauri17
-  127  cd ..
-  128  cd ..
-  129  ls
-  130  cd ..
-  131  ls
-  132  su Pacman22
-  133  grep Pacman22 /etc/passwd
-  134  ls
-  135  tree
-  136  clear
-  137  ls
-  138  cd dir003
-  139  cd dirtres/
-  140  ls
-  141  cd ..
-  142  cd dircuatro/
-  143  ls
-  144  cd archivo2
-  145  nano archivo2
-  146  clear
-  147  cd
-  148  clear
-  149  ls
-  150  cd /etc/a* ~/dirdos/
-  151  sudo cd /etc/a* ~/dirdos/
-  152  sudo cp /etc/a* ~/dirdos/
-  153  cd dirdos
-  154  ls
-  155  cd ..
-  156  ls
-  157  mv archivo 0 dir004/
-  158  mv archivo0 dir004/
-  159  ls
-  160  cd diruno/
-  161  ls
-  162  clear
-  163  mv archivo0 dir004/
-  164  mv archivo0 home/jvargasc852/dir004/
-  165  mv archivo0 jvargasc852/dir004/
-  166  clear
-  167  mv ~/diruno/archivo0 ~/dir004/
-  168  cd ..
-  169  cd dir004/
-  170  ls
-  171  cd ..
-  172  cd diruno/
-  173  ls
-  174  cd ..
-  175  clear
-  176  ls
-  177  clear
-  178  sudo setfacl -m u:jvargasc852:rwX,D:jvargasc852:--- dirdos
-  179  clear
-  180  sudo setfacl -m y:jvargasc852:rwX -m o::--- dirdos
-  181  sudo setfacl -m u:jvargasc852:rwX -m o::--- dirdos
-  182  clear
-  183  sudo setfacl -m u:jvargasc852:rwX -m o::--- dirdos
-  184  sudo setfacl -m u:centauri17:rwX -m o::--- dir003
-  185  sudo setfacl -m u:Centauri17:rwX -m o::--- dir003
-  186  sudo setfacl -m u:Cccentauri17:rwX -m o::--- dir003
-  187  clear
-  188  sudo setfacl -m u:jvargasc852:rwX -m o::--- dirdos
-  189  sudo setfacl -m u:Centauri17:rwX -m o::--- dir003
-  190  sudo setfacl -m u:Mortasoft:rwx -m o::rwX dir004
-  191  clear
-  192  history > historial.txt
+sudo pacman -S yay
+sudo yay -S --needed base-devel
+yay -Syu
+yay -S google-chrome
+sudo pacman -S apache
+sudo nano /srv/http/index.html
+sudo systemctl start apache
+sudo pacman -S apache
+sudo systemctl start apache
+sudo systemctl start httpd.service
+sudo systemctl status httpd.service
+nano /srv/http/index.html
+ip a
+sudo nano /srv/http/index.html
+nano /srv/http/index.html
+sudo systemctl start httpd.service
+sudo systemctl status httpd.service
+uname -a
+git clone https://github.com/mortasoft/linux-scripts
+cd linux-scripts/
+sudo pacman -S tree
+sudo useradd -m Mortasoft -G wheel -p 123
+sudo useradd -m Centauri17 -G wheel -p 123
+sudo useradd -m Pacman22 -G wheel -p 123
+chmod -R u+rwx /home/jvargasc852
+chmod -R g+rX,o-rwx /home/jvargasc852
+cd jvargasc852/
+mkdir diruno
+mkdir dirdos
+mkdir 003
+mkdir 004
+cd diruno/
+mv 003 dir003
+mv 004 dir004
+touch archivo0
+ls /bin > archivo1
+cat archivo1
+mkdir dirtres
+mkdir dircuatro
+ls -la /etc/a* > $HOME/dir003/dircuatro/archivo2
+ls -l $HOME 1> $HOME/dir003/dircuatro/archivo3
+cp /etc/profile $HOME/dir003/dircuatro/
+su Pacman22
+grep Pacman22 /etc/passwd
+nano archivo2
+sudo cp /etc/a* ~/dirdos/
+mv ~/diruno/archivo0 ~/dir004/
+sudo setfacl -m u:jvargasc852:rwX -m o::--- dirdos
+sudo setfacl -m u:Centauri17:rwX -m o::--- dir003
+sudo setfacl -m u:Mortasoft:rwx -m o::rwX dir004
+history > historial.txt
