@@ -31,7 +31,6 @@
 | du -h \<directorio>        | Muestra el espacio usado por un directorio y sus subdirectorios. | `du -h /ruta/directorio` para mostrar el uso de espacio en el directorio especificado.   |
 | uname -a                  | Muestra información sobre el sistema.                  | `uname -a` para mostrar información sobre el kernel y el sistema operativo.               |
 | ifconfig                  | Muestra la configuración de las interfaces de red.     | `ifconfig` para mostrar información sobre las interfaces de red.                          |
-| ping \<host>               | Envía paquetes ICMP a un host para comprobar la conectividad. | `ping www.ejemplo.com` para comprobar la conectividad con el host "www.ejemplo.com".    |
 | ssh \<usuario>@\<host>     | Inicia una sesión SSH en un host remoto.                | `ssh usuario@ejemplo.com` para iniciar una sesión SSH en el host "ejemplo.com".          |
 | wget \<URL>               | Descarga archivos desde Internet.                      | `wget https://www.ejemplo.com/archivo.zip` para descargar un archivo desde la URL.      |
 | systemctl start/stop/restart \<servicio> | Inicia, detiene o reinicia un servicio. | `systemctl start apache2` para iniciar el servicio Apache.                                |
