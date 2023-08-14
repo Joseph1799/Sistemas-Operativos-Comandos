@@ -1,4 +1,3 @@
-### Sistemas Operativos Comandos
 # Recopilación de comandos utilizados en el curso de Sistemas Operativos.
 
 ## Comandos Ubuntu
